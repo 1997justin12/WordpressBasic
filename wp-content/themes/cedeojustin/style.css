@@ -1,0 +1,48 @@
+/*
+Theme Name : My Template
+Description : Create a new project from scratch
+Author : Justin Cedeno
+*/
+
+body{
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+header.header{
+	padding: 25px 0;
+	font-family: "Gotham Bold";
+}
+
+.container{
+	max-width: 1150px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    display: table;
+}
+.company-logo{
+	margin-left: 25px;
+    float: left;
+}
+.navigation{
+	float: right;
+    padding: 29px 0;
+    margin-right: 25px;
+}
+ul#primary-menu > li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 25px;
+}
+.banner-home{
+	height: 612px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
